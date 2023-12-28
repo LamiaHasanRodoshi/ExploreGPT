@@ -24,7 +24,7 @@ def get_completion(prompt, model="gpt-4-1106-preview"):
 def create_response(prompt):
     print()
     print("Response from ChatGPT:")
-    print(response)
+    print(prompt)
 
 
 def similarity_checking(github_f, chatgpt_f):
